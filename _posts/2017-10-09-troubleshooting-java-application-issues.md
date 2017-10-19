@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Troubleshooting Java Application Issues
-tags: [java, troubleshooting]
+tags: [Java, troubleshooting]
 ---
 
 # Basic Approaches

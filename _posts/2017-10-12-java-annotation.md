@@ -1,3 +1,9 @@
+---
+layout: post
+title: Java Annotation
+tags: [Java, annotation]
+---
+
 # Basics
 As the name implies, annotation is used to provide additional information for the elements (classes, methods,
 etc) you
