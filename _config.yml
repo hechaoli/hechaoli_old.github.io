@@ -17,7 +17,7 @@ baseurl: ""
 title: Hechao Li
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Monkey King's Territory
 
 # --- Navigation bar options --- #
 
@@ -64,43 +64,13 @@ footer-link-col: "#404040"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Hechao Li
-  email: "hechaol@outlook.com"
-  #facebook: yourname  # eg. daattali
-  github: hechaoli    # eg. daattali
-  #twitter: yourname   # eg. daattali
-  #reddit: yourname    # eg. daattali
-  #google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: hechaoli  # eg. daattali
-  #xing: yourname      # eg. daattali
-  #stackoverflow: yourlink  # eg. "3943160/daattali"
-  #snapchat: yourname  # eg. daattali
-  #instagram: yourname # eg. daattali
-  #youtube: yourlink   # eg. user/daattali or channel/daattali
-  #spotify: yourname   # eg. daattali
-  #telephone: yourphone   # eg. +14159998888
-  #steam: yourname     # eg. daattali
-  #twitch: yourname    # eg. daattali
-  #yelp: yourname      # eg. daattali
 
 # Select which links to show in the footer
 social-network-links:
-  facebook: false
-  email: true
-  twitter: false
-  google-plus: false
-  github: true
-  reddit: false
-  linkedin: true
-  xing: false
-  stackoverflow: false
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: false
-  steam: false
-  twitch: false
-  yelp: false
+  rss: true
+  email: "hechaol@outlook.com"
+  github: hechaoli
+  linkedin: hechaoli
 
 # Select which share links to show in posts
 share-links-active:
@@ -116,7 +86,7 @@ share-links-active:
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-118747277-1"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -151,7 +121,7 @@ title-separator: "-"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:year/:month/:day/:title/
 paginate: 10
 
 kramdown:
