@@ -115,7 +115,7 @@ How AOP works is, it injects the aspect logic to your own code. And this
 injection is called weaving. In AspectJ, there are three types of weaving:
 compile-time weaving, post-compile weaving, and load-time weaving. (Isn't this
 similar to three retention types we discussed in [previous
-post](/2017-10-12-java-annotation)?)
+post](/2017/10/12/java-annotation)?)
 
 Checkout this project for usage of all three types of weaving:
 [aspectj-maven-example](https://github.com/Barlog-M/aspectj-maven-example).

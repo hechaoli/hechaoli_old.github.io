@@ -6,7 +6,7 @@ tags: [Network, Linux, Bridge]
 ---
 
 # Overview
-In [previous post](/2017-12-13-linux-bridge-part1), I described the
+In [previous post](/2017/12/13/linux-bridge-part1), I described the
 configuration of a linux bridge and showed an experiment in which wireshark was
 used to analyze the traffic. In this article, I will discuss what happens
 when a bridge is created and how a Linux bridge works.

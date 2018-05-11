@@ -5,7 +5,7 @@ subtitle: AspectJ In Practice
 tags: [Java, AOP, AspectJ]
 ---
 
-In [previous post](/2017-10-18-aspectj-part1), we discussed the concept of AOP
+In [previous post](/2017/10/18/aspectj-part1), we discussed the concept of AOP
 and explained the terminologies used in AspectJ. Now we can use some examples to
 show how AspectJ can be used in a project.
 
@@ -37,7 +37,7 @@ can achieve this goal.
 
 # Define the annotation
 First we define the annotation we use on the method we want to trace. For how to
-define a custom annotation, see [Java Annotation](/2017-10-12-java-annotation).
+define a custom annotation, see [Java Annotation](/2017/10/12/java-annotation).
 
 ```java
 @Retention(RetentionPolicy.RUNTIME)

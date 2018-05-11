@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Start an Open Source Project - Personal Experience
+title: Start an Open Source Project
+subtitle: Personal Experience
 tags: [Open Source, Github, Software Management]
 ---
 

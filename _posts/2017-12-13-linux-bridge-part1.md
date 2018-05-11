@@ -74,7 +74,7 @@ use the term bridge hereafter) with at least 4 ports, as shown below:
 Following is the steps of how data flows from a physical machine to the internet:
 (Suppose ARP and MAC learning are all done and default gateway IP is set on the
 physical machines. For details of MAC learning, see [previous
-post](/2017-11-23-vxlan))
+post](/2017/11/23/vxlan))
 
 1. A packet is sent to the pNIC (physical NIC) on the physical machine.
 2. The pNIC adds a L2 header to the packet with source address being the pNIC's
