@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TUN/TAP Interface
-tags: [Linux, Network, Lab]
+tags: [Linux, Network, TUN, TAP]
 ---
 
 # Concept
