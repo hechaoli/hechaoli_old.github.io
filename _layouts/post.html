@@ -47,10 +47,11 @@ layout: base
           {% endif %}
         </div>
       {% endif %}
-
-      <p align="center">
-         <a href="https://paypal.me/HechaoLi" target="_blank"><img src="/img/donate.png" alt="Donate"></a>
-      </p>
+      <div align="center">
+         <form action="https://paypal.me/HechaoLi" target="_blank">
+            <button type="submit" class="donateButton">Click me to treat the author <3 </button>
+         </form>
+      </div>
       {% if page.social-share %}
         {% include social-share.html %}
       {% endif %}
