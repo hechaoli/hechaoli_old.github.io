@@ -185,3 +185,6 @@ based on my personal experience. They are all fundamental stuff that I put
 together for future reference as well as for people who may need. I could have
 said something insane or something stupid. Please feel free to point them out
 before misleading more people.
+
+# Resources
+[Understanding Open Source Software](https://www.websiteplanet.com/blog/what-is-open-source-software/)
