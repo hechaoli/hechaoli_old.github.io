@@ -4,9 +4,11 @@ title: About me
 subtitle: All you need to know about me
 ---
 
-My name is Hechao Li. I am interested in:
+My name is Hechao (prounced as Huh-Chow). I am interested in:
 
+- Coding
 - Distributed System
 - Software Defined Network (SDN)
-- Operating System
+- Operating System (Linux kernel specifically)
+- Containers
 - Security
