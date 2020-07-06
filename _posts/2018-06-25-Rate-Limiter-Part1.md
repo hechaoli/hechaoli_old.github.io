@@ -386,7 +386,7 @@ current window. For example, suppose the limit is 10 per minute.  There are 9
 requests in window `[00:00, 00:01)` and 5 reqeuests in window `[00:01, 00:02)`.
 For a requst arrives at `00:01:15`, which is at `25%` position of window
 `[00:01, 00:02)`, we calculate the request count by the formula: 
-`9 x (1 - 25%) + 5 = 14.75 > 10`. Thus we reject this request. Even though both
+`9 x (1 - 25%) + 5 = 11.75 > 10`. Thus we reject this request. Even though both
 windows don't exceed the limit, the request is rejected because the weighted sum
 of previous and current window does exceed the limit.
 
