@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Checksum or fxxk-up?
-image: /img/checksum.jpg
+cover-img: /img/checksum.jpg
 tags: [Network, BPF, Linux Kernel]
 ---
 

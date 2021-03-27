@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lock Lock. Who's Locked? Kernel Memory
-image: /img/padlock.jpg
+cover-img: /img/padlock.jpg
 tags: [Linux, Kernel, BPF]
 ---
 

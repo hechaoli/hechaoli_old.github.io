@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux Bridge - Part 1
-image: /img/golden-gate-bridge.jpg
+cover-img: /img/golden-gate-bridge.jpg
 tags: [Network, Linux, Bridge, KVM]
 ---
 
