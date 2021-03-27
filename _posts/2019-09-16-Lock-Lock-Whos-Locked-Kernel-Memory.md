@@ -336,5 +336,5 @@ fix](https://github.com/torvalds/linux/commit/c4b75479741c9c3a4f0abff5baa5013d27
 followed by [a fix of the fix of a fix of the fix of the
 fix](https://github.com/torvalds/linux/commit/003461559ef7a9bd0239bae35a22ad8924d6e9ad).
 
-![Fix bug](/img/fix_bug.jpg){: .center-block :}
+![Fix bug](/img/fix_bug.jpg){: .mx-auto.d-block :}
 

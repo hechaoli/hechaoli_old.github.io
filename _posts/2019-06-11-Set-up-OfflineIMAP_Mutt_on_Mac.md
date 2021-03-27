@@ -19,7 +19,7 @@ from IMAP servers. In my setup, I use OfflineIMAP to periodically sync a local
 mail folder with remote outlook email server and use Mutt as an email client to
 read emails from the folder.
 
-![OfflineIMAP and Mutt](/img/offlineimap_mutt.jpg){: .center-block :}
+![OfflineIMAP and Mutt](/img/offlineimap_mutt.jpg){: .mx-auto.d-block :}
 
 ## OfflineIMAP: Install and Config
 ### Install

@@ -39,7 +39,7 @@ lines when everything works perfectly fine without them. The true devil hides
 really well because I focused only on the function body but not the function
 declaration.
 
-![Hidden Cat](/img/hidden_cat.jpg){: .center-block :}
+![Hidden Cat](/img/hidden_cat.jpg){: .mx-auto.d-block :}
 
 <div align="center">The root cause is like the hidden cat. Have you found it?</div>
 
@@ -101,7 +101,7 @@ problem was solved.
 
 But why?
 
-![Question Cat](/img/question_cat.jpg){: .center-block :}
+![Question Cat](/img/question_cat.jpg){: .mx-auto.d-block :}
 
 # Root Cause
 
@@ -195,6 +195,6 @@ bytes, which is within `__sk_buff` struct. It knows that this pointer is safe
 to dereference as long as skb is valid.
 
 
-![Hidden Cat Answer](/img/hidden_cat_answer.jpg){: .center-block :}
+![Hidden Cat Answer](/img/hidden_cat_answer.jpg){: .mx-auto.d-block :}
 
 <div align="center">Here it is!</div>

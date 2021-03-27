@@ -69,7 +69,7 @@ passed to `bpf_skb_store_bytes` (which is used to modify bits) did the trick.
 Before digging into more details, let’s have a look at how checksum works. The
 following diagram is a very good illustration.
 
-![checksum](/img/checksum.jpg){: .center-block :}
+![checksum](/img/checksum.jpg){: .mx-auto.d-block :}
 
 (Image credit: https://www.geeksforgeeks.org/error-detection-in-computer-networks/)
 
@@ -134,7 +134,7 @@ affected, I still fixed the guilty BPF program to prove hardware’s innocence.
 While I was celebrating yet another closed case, I had no idea what the
 criminal was up to.
 
-![hidden bear](/img/hidden_bear.jpg){: .center-block :}
+![hidden bear](/img/hidden_bear.jpg){: .mx-auto.d-block :}
 
 # Checksum is fxxked up, again?
 
@@ -189,7 +189,7 @@ use the not-so-scientific yet effective way of debugging - try out different
 things hoping to find a working solution and pray to god to increase the
 success rate.
 
-![Sheldon Pray](/img/sheldon_pray.jpg){: .center-block :}
+![Sheldon Pray](/img/sheldon_pray.jpg){: .mx-auto.d-block :}
 
 <div align="center">(An example of scientist praying to god when things not working)</div>
 
@@ -200,7 +200,7 @@ fixed after TCP header is modified. And, to my surprise, it works!
 
 The following table shows things I tried and their results:
 
-![Things I tried](/img/checksum_things_I_tried.png){: .center-block :}
+![Things I tried](/img/checksum_things_I_tried.png){: .mx-auto.d-block :}
 
 <div align="center">Can you find some patterns?</div>
 
@@ -217,7 +217,7 @@ value](https://github.com/torvalds/linux/blob/24085f70a6e1b0cb647ec92623284641d8
 The call stack is a bit involved. So let’s flatten the logic again (Irrelevant
 code has been omitted). 
 
-![skb_checksum_init](/img/skb_checksum_init.png){: .center-block :}
+![skb_checksum_init](/img/skb_checksum_init.png){: .mx-auto.d-block :}
 
 <div align="center">One of the most involved pieces of code I've seen</div>
 
@@ -230,7 +230,7 @@ It calculates the csum of [TCP pseudo
 header](http://www.tcpipguide.com/free/t_TCPChecksumCalculationandtheTCPPseudoHeader-2.htm).
 The result is the psum we’ve seen above.
 
-![IP pseudo header](/img/ip_pseudo_header.png){: .center-block :}
+![IP pseudo header](/img/ip_pseudo_header.png){: .mx-auto.d-block :}
 
 <div align="center">Image credit:
 http://www.tcpipguide.com/free/t_TCPChecksumCalculationandtheTCPPseudoHeader-2.htm</div>
@@ -256,7 +256,7 @@ checksum(skb)) == 0`?
 I will try my best to explain it. The key is, like the diagram above shows, TCP
 header also has a checksum.
 
-![TCP header format](/img/tcp_header_format.jpg){: .center-block :}
+![TCP header format](/img/tcp_header_format.jpg){: .mx-auto.d-block :}
 
 And the formula of calculating TCP header checksum is
 
