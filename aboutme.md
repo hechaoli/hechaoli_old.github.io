@@ -4,7 +4,7 @@ title: About me
 subtitle: All you need to know about me
 ---
 
-My name is Hechao (prounced as Huh-Chow). I am interested in:
+My name is Hechao (prounce as Huh-Chow). I am interested in:
 
 - Coding
 - Distributed System
