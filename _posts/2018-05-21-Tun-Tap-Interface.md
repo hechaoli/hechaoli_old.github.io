@@ -39,7 +39,7 @@ between two hosts[5].
 The typical use case of a TAP interface is virtual networking. For example, in
 [Linux Bridge Part 1](/2017/12/13/linux-bridge-part1), we've seen that when we
 create a VM in the KVM with bridged network, it creates a TAP interface like
-`vnet0` and adds it to the Linux bridge. In this case, KVM is the usersapce
+`vnet0` and adds it to the Linux bridge. In this case, KVM is the userspace
 program which reads from and writes to the TAP interfaces. When VM0 sends a
 packet to its `eth0`, KVM sends it to TAP interface `vnet0` so that the bridge
 will forward it to `vnet1`. Then KVM receives it and sends it to VM1's `eth0`.
